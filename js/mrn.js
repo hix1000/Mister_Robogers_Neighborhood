@@ -44,6 +44,7 @@ function mrRobogersNeighborhood(numberString) {
             };
         }
         return output.join(", ");
+        
     } else {
         // edge case
         return "Invalid input. Please enter a number."
