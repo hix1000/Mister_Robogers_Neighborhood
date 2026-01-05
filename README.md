@@ -14,7 +14,7 @@ Mason Alex
 This program loops through a given value and either outputs the loop value, `Beep`, `Boop`, or `Won't you be my neighbor?` depending on the loop value.
 
 > Setup
-Launch a live server or click [here](#).
+Launch a live server or click [here](https://hix1000.github.io/Mister_Robogers_Neighborhood/).
 
   
 
