@@ -1,25 +1,4 @@
 //#region Business Logic
-
-/*
-function validateCreditCard(string) {
-  // Remove spaces and split into individual characters 
-  let numbers = string.replaceAll(" ", "").split("");
-  
-  numbers = numbers.map(Number);
-  for (let i = numbers.length - 2; i >= 0; i -= 2) {
-
-    // Double every second digit from the right
-    numbers[i] *= 2;
-    if (numbers[i] > 9) {
-      // If the result is greater than 9, subtract 9
-      numbers[i] -= 9;
-    };
-  };
-  
-  // Sum all the digits and check if the total modulo 10 is 0
-  return (numbers.reduce((a, b) => a + b, 0) % 10 === 0);
-}
-*/
 function mrRobogersNeighborhood(numberString) {
     // convert string to number and validate
     let number = parseInt(numberString);
