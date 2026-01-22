@@ -35,15 +35,15 @@ function mrRobogersNeighborhood(numberString) {
 //#region ui Logic
 window.onload = function() {
   
-  let form = document.querySelector("form");
-  form.onsubmit = function(event) {
-    
-    const input = document.getElementById("input").value;
-    event.preventDefault();
-    document.querySelector("p#output").innerText = mrRobogersNeighborhood(input);
-    
-    document.querySelector("div#mrn").removeAttribute("class");
+    let form = document.querySelector("form");
+    form.onsubmit = function(event) {
+        
+        const input = document.getElementById("input").value;
+        event.preventDefault();
+        document.querySelector("p#output").innerText = mrRobogersNeighborhood(input);
+        
+        document.querySelector("div#mrn").removeAttribute("class");
 
-  };
+    };
 };
 //#endregion
